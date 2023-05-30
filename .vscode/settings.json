@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "package*.json": true,
+        "tsconfig*.json": true,
+
+        "node_modules": true,
+        ".npmrc": true,
+        
+        ".nuxt": true,
+        ".vscode": true,
+        ".gitignore": true,
+    }
+}

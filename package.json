@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "pocketbase": "docker run --rm -d --name pocketbase -p 8090:8090 -v pocketbase-data:/pb_data augustodelg/pocketbase:latest"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.5.1"
+  }
+}
